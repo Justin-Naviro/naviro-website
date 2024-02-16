@@ -1,0 +1,500 @@
+/* Remove all default styling */
+@font-face {  
+   font-family: "Hanika";
+   src: url(/fonts/Hanika.ttf);
+ }
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+  }
+  
+  /* Set background color */
+  body {
+   background-image: radial-gradient(#09344B 35%,#080F28 65%);
+  }
+ 
+  /* Hide scrollbar */
+  body::-webkit-scrollbar {
+   display: none;
+ }
+  
+  /* Set text color */
+  body, p, h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+ 
+  /* NAVIGATION BAR */
+ 
+  #navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   top: 0;
+   width: 100%;
+   height: 100px;
+   background-image: linear-gradient(to bottom, #080f28 1%,  transparent 99%);
+   transition: top 0.5s ease-in-out;
+   position: fixed;
+   z-index: 4;
+ }
+ 
+ nav .logo {
+   margin-left: 50px;
+ }
+ 
+ nav .logo a {
+   display: flex;
+   text-decoration: none;
+ }
+ 
+ nav .logo a:hover{
+   text-decoration: underline 1px#fff;
+ }
+ 
+ nav .logo a:active{
+   opacity: 0.5;
+ }
+ 
+ 
+ nav .logo img {
+   width: 50px;
+   height: 50px;
+   padding-right: 20px;
+   padding-left: 20px;
+ }
+ 
+ nav .logo a h2 {
+   font-size: 20px;
+ }
+ 
+ /* styles for medium screens */
+ @media (min-width: 481px) and (max-width: 868px) {
+   /* styles for screens larger than 768px */
+   nav .logo img {
+     margin-left: 30px;
+   }
+ }
+ 
+ /* styles for small screens */
+ @media (max-width: 480px) {
+   /* styles for screens smaller than 768px */
+   nav .logo img {
+     margin-left: 30px;
+   }
+ }
+ /* END NAVIGATION BAR */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* BLOGS */
+ 
+ #blogs {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   margin-bottom: 100px;
+ }
+ 
+ #blogs h1 {
+   font-family: "Hanika";
+   font-size: 4rem;
+   font-weight: bold;
+   letter-spacing: 15px;
+   text-align: center;
+   padding-left: 15px;
+   margin: 100px auto 0;
+ }
+ 
+ .blog-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   z-index: 2;
+ }
+ 
+ /* VERTICAL */
+ 
+ .column-vert {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+ }
+ 
+ #vert-blog-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: #08213A;
+   border: solid 3px #000;
+   box-shadow: 10px 10px 0 10px rgb(0, 0, 0);
+   border-radius: 20px;
+   margin: 15px;
+ }
+ 
+ .vert-blog-information{
+   max-width: 800px;
+   display: flex;
+   flex-direction: column;
+   margin: 20px 10px 20px 20px;
+ }
+ 
+ .vert-blog-information h2 {
+   letter-spacing: 2px;
+   font-size: 1.2rem;
+   margin-bottom: 20px;
+ }
+ 
+ .vert-blog-information h3 {
+   font-weight: 100;
+   font-size: 1rem;
+   margin-bottom: 20px;
+ }
+ 
+ .vert-blog-information p {
+   font-size: 14px;
+   margin-bottom: 20px;
+ }
+
+ 
+ 
+ /* styles for medium screens */
+ @media (min-width: 781px) and (max-width: 1268px) {
+   /* styles for screens larger than 768px */
+ 
+   #horiz-blog-box {
+     box-shadow: 5px 5px 0 5px rgb(0, 0, 0);
+   }
+ 
+   #vert-blog-box {
+     box-shadow: 5px 5px 0 5px rgb(0, 0, 0);
+   }
+ 
+   .blog-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-image: radial-gradient(#09344B 35%,#080F28 65%);
+   }
+ 
+   .column-vert {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+ }
+ 
+ /* styles for small screens */
+ @media (max-width: 780px) {
+   /* styles for screens smaller than 768px */
+   .vert-blog-image{
+     display: none;
+   }
+   
+   .vert-blog-image img{
+     display: none;
+   }
+ 
+   .vert-blog-information{
+     max-width: 300px;
+   }
+ 
+   #horiz-blog-box {
+     box-shadow: 5px 5px 0 5px rgb(0, 0, 0);
+   }
+ 
+   #vert-blog-box {
+     box-shadow: 5px 5px 0 5px rgb(0, 0, 0);
+   }
+ 
+   .blog-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-image: radial-gradient(#09344B 35%,#080F28 65%);
+   }
+ 
+   .column-vert {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+   }
+   
+ }
+ 
+ /* END BLOGS */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* CONTACT */
+ 
+ #contact{
+   width: 100%;
+ }
+ 
+ .contact-section{
+   display: flex;
+   justify-content: center;
+   margin: 100px auto;
+ }
+ 
+ .brand{
+   display: flex;
+   align-items: center;
+ }
+ 
+ .brand h2 img{
+   width: 130px;
+ }
+ 
+ .description p{
+   font-size: 13px;
+   text-align: left;
+   margin-top: 30px;
+ }
+ 
+ .brand img{
+   height: 75px;
+   width: 75px;
+   padding-right: 20px;
+ 
+ }
+ 
+ .contact-col{
+   display: flex;
+   flex-direction: column;
+   margin: 0 50px;
+ }
+ 
+ .links h2{
+   font-size: 1.1rem;
+   letter-spacing: 3px;
+ }
+ 
+ .link-column-group {
+   display: flex;
+ }
+ 
+ .link-column-group ul{
+   list-style: none;
+ }
+ 
+ .link-column-group ul li {
+   font-size: 0.8rem;
+   margin: 15px 0;
+ }
+ 
+ .link-column-group ul li a{
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ .link-column-group ul li a:hover{
+   text-decoration: underline;
+ }
+ 
+ .link-column-group ul li a:active{
+   text-decoration: underline;
+   opacity: 0.5;
+ }
+ 
+ .link-column-1{
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .link-column-2{
+   display: flex;
+   flex-direction: row;
+   margin: 0 50px;
+ }
+ 
+ .link-column-3{
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .contact-info {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .contact-info h2{
+   font-size: 1.1rem;
+   letter-spacing: 3px;
+ }
+ 
+ .contact-info a{
+   font-size: 0.8rem;
+   margin: 15px 5px 0;
+   text-decoration: none;
+   color: #fff;
+ }
+ 
+ .direct-contact{
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .direct-contact a:hover{
+   text-decoration: underline;
+ }
+ 
+ .direct-contact a:active{
+   text-decoration: underline;
+   opacity: 0.5;
+ }
+ 
+ .social-media {
+   margin: 15px 0 0;
+ }
+ 
+ .social-media .social-link img{
+    transition: all 0.2s ease;
+ }
+ 
+ .social-media .social-link img:hover{
+    transform: scale(1.2);
+ }
+ 
+ /* styles for medium screens */
+ @media (min-width: 481px) and (max-width: 968px) {
+   /* styles for screens larger than 768px */
+   .contact-section{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 0 auto 70px;
+   }
+ 
+   .brand{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+   }
+ 
+   .contact-col .description{
+     display: none;
+   }
+ 
+   .links {
+     display: none;
+   }
+ 
+   .contact-info{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ 
+   .contact-info h2{
+     display: none;
+   }
+ }
+ 
+ /* styles for small screens */
+ @media (max-width: 480px) {
+   /* styles for screens smaller than 768px */
+   .contact-section{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: auto;
+     margin: 0 auto 70px;
+   }
+ 
+   .brand{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+   }
+ 
+   .contact-col .description{
+     display: none;
+   }
+ 
+   .links {
+     display: none;
+   }
+ 
+   .contact-info{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ 
+   .contact-info h2{
+     display: none;
+   }
+ }
+ /* END CONTACT */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* FOOTER */
+ 
+ footer {
+   width: 100%;
+ }
+ 
+ footer p{
+   display: flex;
+   justify-content: center;
+   font-size: 0.8rem;
+   letter-spacing: 1px;
+   margin: 20px 0;
+ }
+ 
+ @media (min-width: 481px) and (max-width: 768px) {
+   /* styles for screens larger than 768px */
+   footer p {
+     margin: 20px auto;
+   }
+ }
+ 
+ /* styles for small screens */
+ @media (max-width: 480px) {
+   /* styles for screens smaller than 768px */
+   
+ }
+ /* END FOOTER */

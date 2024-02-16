@@ -1,0 +1,27 @@
+<svg width="465" height="592" viewBox="0 0 465 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_116_768)">
+<ellipse cx="225.027" cy="525.099" rx="112.927" ry="26.5378" fill="white"/>
+</g>
+<g filter="url(#filter1_f_116_768)">
+<circle cx="225.561" cy="193.292" r="93.2923" fill="white"/>
+<path d="M316.367 274.146C316.367 325.67 284.55 453.267 233.026 453.267C181.502 453.267 129.782 325.67 129.782 274.146C129.782 222.622 171.551 180.854 223.075 180.854C274.598 180.854 316.367 222.622 316.367 274.146Z" fill="white"/>
+<ellipse cx="318.083" cy="284.603" rx="63.4388" ry="32.3413" transform="rotate(53.1703 318.083 284.603)" fill="white"/>
+<ellipse cx="138.34" cy="287.804" rx="63.4388" ry="32.3413" transform="rotate(111.499 138.34 287.804)" fill="white"/>
+</g>
+<circle cx="225.561" cy="193.292" r="93.2923" fill="white"/>
+<path d="M316.367 274.146C316.367 325.67 284.55 453.267 233.026 453.267C181.502 453.267 129.782 325.67 129.782 274.146C129.782 222.622 171.551 180.854 223.075 180.854C274.598 180.854 316.367 222.622 316.367 274.146Z" fill="white"/>
+<ellipse cx="311.093" cy="285.246" rx="63.4388" ry="32.3413" transform="rotate(64.2316 311.093 285.246)" fill="white"/>
+<ellipse cx="138.34" cy="287.804" rx="63.4388" ry="32.3413" transform="rotate(111.499 138.34 287.804)" fill="white"/>
+<defs>
+<filter id="filter0_f_116_768" x="72.1006" y="458.562" width="305.854" height="133.076" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_116_768"/>
+</filter>
+<filter id="filter1_f_116_768" x="0.311523" y="0" width="463.778" height="553.267" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_116_768"/>
+</filter>
+</defs>
+</svg>
