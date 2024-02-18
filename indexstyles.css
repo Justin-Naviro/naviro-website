@@ -166,7 +166,7 @@ nav ul li a:active {
   }
 
   .dropdown {
-    display: inline;
+    display: block;
   }
 }
 
@@ -182,7 +182,7 @@ nav ul li a:active {
   }
 
   .dropdown {
-    display: inline;
+    display: block;
   }
 }
 /* END NAVIGATION BAR */
