@@ -1,7 +1,7 @@
 /* Remove all default styling */
 @font-face {  
   font-family: "Hanika";
-  src: url(/fonts/Hanika.otf);
+  src: url(Hanika.otf);
 }
 
 * {
