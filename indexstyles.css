@@ -323,13 +323,13 @@ nav ul li a:active {
   }
 
   .mount-birds-home-pg {
-    top: 0px;
+    top: 400px;
     transform: scale(0.5);
   }
   
   .dude-boat-home-pg {
-    top: 0px;
-    right: 0px;
+    top: 500px;
+    right: 200px;
     transform: scale(0.6);
     animation: none;
   }
