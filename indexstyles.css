@@ -12,7 +12,6 @@
    font-family: 'Roboto', sans-serif;
    vertical-align: baseline;
    scroll-behavior: smooth;
-   overflow: hidden;
  }
  
  /* Set background color */
@@ -202,7 +201,7 @@ nav ul li a:active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(to bottom, #0B315B , #080F28 65%);
+	background-image: linear-gradient(to bottom, #0B315B , #080F28 65%);
   overflow: hidden;
 }
 
@@ -324,13 +323,13 @@ nav ul li a:active {
   }
 
   .mount-birds-home-pg {
-    top: 400px;
+    top: 0px;
     transform: scale(0.5);
   }
   
   .dude-boat-home-pg {
-    top: 500px;
-    right: 200px;
+    top: 0px;
+    right: 0px;
     transform: scale(0.6);
     animation: none;
   }
@@ -354,14 +353,14 @@ nav ul li a:active {
   }
 
   .mount-birds-home-pg {
-     top: 400px;
-    transform: scale(0.4);
+    top: 0px;
+    transform: scale(0.5);
   }
   
   .dude-boat-home-pg {
-    top: 500px;
-    right: 200px;
-    transform: scale(0.5);
+    top: 0px;
+    right: 0px;
+    transform: scale(0.6);
     animation: none;
   }
 }
@@ -668,8 +667,8 @@ nav ul li a:active {
     }
     
     .dude-fishing-about-pg {
-      top: 1480px;
-      left: 200px;
+      top: 0px;
+      left: 0px;
       transform: scale(0.5);
       animation: none;
     }
@@ -721,11 +720,14 @@ nav ul li a:active {
     }
     
     .dude-fishing-about-pg {
-      display: none;
+      top: 0px;
+      left: 0px;
+      transform: scale(0.5);
+      animation: none;
     }
     
     .fishes-about-pg {
-      transform: scale(0.5);
+      transform: scale(0.4);
     }
 }
 
@@ -1224,7 +1226,7 @@ nav ul li a:active {
   }
 
   .fish-pond-project-pg {
-    top: 2250px;
+    top: 0px;
     transform: scale(0.5);
   }
   
@@ -1253,7 +1255,7 @@ nav ul li a:active {
   }
 
   .fish-pond-project-pg {
-    top: 2250px;
+    top: 0px;
     transform: scale(0.5);
   }
 
@@ -1446,20 +1448,20 @@ nav ul li a:active {
   }
 
   .lighthouse-island-volunteer-pg{
-    right: -320px;
-    top: 2800px;
+    right: -0px;
+    top: 0px;
     transform: scale(0.4);
   }
 
   .dude-boat-volunteer-pg{
     right: 0px;
-    top: 3050px;
+    top: 0px;
     transform: scale(0.5);
   }
 
   .birds-volunteer-pg {
-    right: 70px;
-    top: 2730px;
+    right: 0px;
+    top: 0px;
     transform: scale(0.5);
   }
 
@@ -1514,20 +1516,20 @@ nav ul li a:active {
   }
 
   .lighthouse-island-volunteer-pg{
-    right: -320px;
-    top: 2800px;
+    right: 0px;
+    top: 0px;
     transform: scale(0.4);
   }
 
   .dude-boat-volunteer-pg{
     right: 0px;
-    top: 3050px;
+    top: 0px;
     transform: scale(0.5);
   }
 
   .birds-volunteer-pg {
-    right: 70px;
-    top: 2730px;
+    right: 0px;
+    top: 0px;
     transform: scale(0.5);
   }
 }
@@ -1978,19 +1980,31 @@ nav ul li a:active {
   }
 
   .tl-dude-team-pg {
-    display: none;
+    top: 100px;
+    right: 220px;
+    transform: scale(0.5);
+    animation: none;
   }
   
   .tr-dude-team-pg {
-    display: none;
+    top: 100px;
+    left: 280px;
+    transform: scale(0.5);
+    animation: none;
   }
   
   .bl-dude-team-pg {
-    display: none;
+    top: 600px;
+    right: 350px;
+    transform: scale(0.5);
+    animation: none;
   }
   
   .br-dude-team-pg {
-    display: none;
+    top: 500px;
+    left: 300px;
+    transform: scale(0.5);
+    animation: none;
   }
 }
 
