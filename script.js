@@ -16,6 +16,18 @@ const modal3 = document.querySelector('.modal3');
 const openModal3 = document.querySelector('.open-button3');
 const closeModal3 = document.querySelector('.close-button3');
 
+const modal4 = document.querySelector('.modal4');
+const openModal4 = document.querySelector('.open-button4');
+const closeModal4 = document.querySelector('.close-button4');
+
+const modal5 = document.querySelector('.modal5');
+const openModal5 = document.querySelector('.open-button5');
+const closeModal5 = document.querySelector('.close-button5');
+
+const modal6 = document.querySelector('.modal6');
+const openModal6 = document.querySelector('.open-button6');
+const closeModal6 = document.querySelector('.close-button6');
+
 // NAVBAR STICKY //
 
 let theEnd = 0,
@@ -82,6 +94,33 @@ openModal3.addEventListener('click', () => {
 
 closeModal3.addEventListener('click', () => {
     modal3.close();
+})
+
+//4
+openModal4.addEventListener('click', () => {
+    modal4.showModal();
+})
+
+closeModal4.addEventListener('click', () => {
+    modal4.close();
+})
+
+//5
+openModal5.addEventListener('click', () => {
+    modal5.showModal();
+})
+
+closeModal5.addEventListener('click', () => {
+    modal5.close();
+})
+
+//6
+openModal6.addEventListener('click', () => {
+    modal6.showModal();
+})
+
+closeModal6.addEventListener('click', () => {
+    modal6.close();
 })
 
 //END MODAL WINDOW //

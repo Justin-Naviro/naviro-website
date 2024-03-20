@@ -44,6 +44,7 @@
   transition: top 0.5s ease-in-out;
   position: fixed;
   z-index: 4;
+  overflow: hidden;
 }
 
 nav .logo img {
@@ -201,9 +202,10 @@ nav ul li a:active {
   align-items: center;
   width: 100%;
 	background-image: linear-gradient(to bottom, #0B315B , #080F28 65%);
+  overflow: hidden;
 }
 
-.mount-birds-homg-pg {
+.mount-birds-home-pg {
   width: 900px;
   position: absolute;
   transform: translateY(30%);
@@ -320,12 +322,16 @@ nav ul li a:active {
     font-size: 1.8rem;
   }
 
-  .mount-birds-homg-pg {
-    display: none;
+  .mount-birds-home-pg {
+    top: 300px;
+    transform: scale(0.5);
   }
   
   .dude-boat-home-pg {
-    display: none;
+    top: 550px;
+    right: 390px;
+    transform: scale(0.6);
+    animation: none;
   }
 }
 
@@ -346,12 +352,16 @@ nav ul li a:active {
     font-size: 1.8rem;
   }
 
-  .mount-birds-homg-pg {
-    display: none;
+  .mount-birds-home-pg {
+    top: 300px;
+    transform: scale(0.5);
   }
   
   .dude-boat-home-pg {
-    display: none;
+    top: 550px;
+    right: 390px;
+    transform: scale(0.6);
+    animation: none;
   }
 }
 
@@ -369,6 +379,7 @@ nav ul li a:active {
   display: flex;
   justify-content: center;
   width: 100%;
+  overflow: hidden;
 }
 
 #sponsors-box {
@@ -464,6 +475,7 @@ nav ul li a:active {
   justify-content: center;
 	background-image: linear-gradient(to bottom, #080F28, #0B315B, #080F28);
   width: 100%;
+  overflow: hidden;
 }
 
 .dude-boat-about-pg {
@@ -655,11 +667,14 @@ nav ul li a:active {
     }
     
     .dude-fishing-about-pg {
-      display: none;
+      top: 1480px;
+      left: 200px;
+      transform: scale(0.5);
+      animation: none;
     }
     
     .fishes-about-pg {
-      display: none;
+      transform: scale(0.4);
     }
 }
 
@@ -709,7 +724,7 @@ nav ul li a:active {
     }
     
     .fishes-about-pg {
-      display: none;
+      transform: scale(0.5);
     }
 }
 
@@ -813,6 +828,51 @@ nav ul li a:active {
 }
 
 .modal3::backdrop {
+  background-color: #080F28;
+  opacity: 0.7;
+}
+
+.modal4{
+  border: solid 3px #000;
+  box-shadow: 10px 10px 0 10px rgb(0, 0, 0);
+  background-color: #09344B;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.modal4::backdrop {
+  background-color: #080F28;
+  opacity: 0.7;
+}
+
+.modal5{
+  border: solid 3px #000;
+  box-shadow: 10px 10px 0 10px rgb(0, 0, 0);
+  background-color: #09344B;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.modal5::backdrop {
+  background-color: #080F28;
+  opacity: 0.7;
+}
+
+.modal6{
+  border: solid 3px #000;
+  box-shadow: 10px 10px 0 10px rgb(0, 0, 0);
+  background-color: #09344B;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.modal6::backdrop {
   background-color: #080F28;
   opacity: 0.7;
 }
@@ -1163,7 +1223,8 @@ nav ul li a:active {
   }
 
   .fish-pond-project-pg {
-    display: none;
+    top: 2250px;
+    transform: scale(0.5);
   }
   
 }
@@ -1191,7 +1252,8 @@ nav ul li a:active {
   }
 
   .fish-pond-project-pg {
-    display: none;
+    top: 2250px;
+    transform: scale(0.5);
   }
 
 }
@@ -1211,6 +1273,7 @@ nav ul li a:active {
   justify-content: center;
 	background-image: linear-gradient(to bottom, #080F28, #0B315B, #080F28);
   width: 100%;
+  overflow: hidden;
 }
 
 #volunteer-box{
@@ -1382,15 +1445,21 @@ nav ul li a:active {
   }
 
   .lighthouse-island-volunteer-pg{
-    display: none;
+    right: -320px;
+    top: 2800px;
+    transform: scale(0.4);
   }
 
   .dude-boat-volunteer-pg{
-  display: none;
+    right: 0px;
+    top: 3050px;
+    transform: scale(0.5);
   }
 
   .birds-volunteer-pg {
-  display: none;
+    right: 70px;
+    top: 2730px;
+    transform: scale(0.5);
   }
 
 }
@@ -1444,15 +1513,21 @@ nav ul li a:active {
   }
 
   .lighthouse-island-volunteer-pg{
-    display: none;
+    right: -320px;
+    top: 2800px;
+    transform: scale(0.4);
   }
 
   .dude-boat-volunteer-pg{
-  display: none;
+    right: 0px;
+    top: 3050px;
+    transform: scale(0.5);
   }
 
   .birds-volunteer-pg {
-  display: none;
+    right: 70px;
+    top: 2730px;
+    transform: scale(0.5);
   }
 }
 
@@ -1470,6 +1545,7 @@ nav ul li a:active {
   display: flex;
   justify-content: center;
   width: 100%;
+  overflow: hidden;
 }
 
 #gallery-border{
@@ -1702,6 +1778,7 @@ nav ul li a:active {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+  overflow: hidden;
 }
 
 .tl-dude-team-pg {
@@ -1859,19 +1936,31 @@ nav ul li a:active {
   }
 
   .tl-dude-team-pg {
-    display: none;
+    top: 100px;
+    right: 220px;
+    transform: scale(0.5);
+    animation: none;
   }
   
   .tr-dude-team-pg {
-    display: none;
+    top: 100px;
+    left: 280px;
+    transform: scale(0.5);
+    animation: none;
   }
   
   .bl-dude-team-pg {
-    display: none;
+    top: 600px;
+    right: 350px;
+    transform: scale(0.5);
+    animation: none;
   }
   
   .br-dude-team-pg {
-    display: none;
+    top: 500px;
+    left: 300px;
+    transform: scale(0.5);
+    animation: none;
   }
 }
 
@@ -1920,6 +2009,7 @@ nav ul li a:active {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .newsletter-box{
@@ -2056,6 +2146,7 @@ form .btn:active {
 
 #contact{
   width: 100%;
+  overflow: hidden;
 }
 
 .contact-section{
@@ -2267,6 +2358,7 @@ form .btn:active {
 
 footer {
   width: 100%;
+  overflow: hidden;
 }
 
 footer p{
