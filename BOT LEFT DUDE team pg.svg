@@ -25,13 +25,15 @@
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="15" result="effect1_foregroundBlur_432_1083"/>
 </filter>
-<linearGradient id="paint0_linear_432_1083" x1="268" y1="-10.002" x2="1.06256e-06" y2="243.998" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_432_1083" x1="268" y1="-10.002" x2="83.5" y2="244" gradientUnits="userSpaceOnUse">
 <stop stop-color="#166D88"/>
-<stop offset="0.669792" stop-color="#080F28"/>
+<stop offset="0.619" stop-color="#080F28"/>
+<stop offset="0.824" stop-color="#080F28" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint1_linear_432_1083" x1="254" y1="102.498" x2="211.25" y2="239.998" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear_432_1083" x1="254" y1="102.498" x2="226" y2="233" gradientUnits="userSpaceOnUse">
 <stop stop-color="#167388"/>
-<stop offset="0.763542" stop-color="#080F28"/>
+<stop offset="0.724" stop-color="#080F28"/>
+<stop offset="1" stop-color="#080F28" stop-opacity="0"/>
 </linearGradient>
 </defs>
 </svg>

@@ -1,7 +1,7 @@
 /* Remove all default styling */
 @font-face {  
   font-family: "Hanika";
-  src: url(Hanika.ttf);
+  src: url(/fonts/Hanika.ttf);
 }
 
 * {
@@ -866,6 +866,10 @@ footer p{
 /* styles for small screens */
 @media (max-width: 480px) {
   /* styles for screens smaller than 768px */
-  
+  footer p {
+    font-size: 0.6rem;
+    margin: auto 20px;
+
+  }
 }
 /* END FOOTER */

@@ -322,17 +322,6 @@ nav ul li a:active {
     font-size: 1.8rem;
   }
 
-  .mount-birds-home-pg {
-    top: 0px;
-    transform: scale(0.5);
-  }
-  
-  .dude-boat-home-pg {
-    top: 0px;
-    right: 0px;
-    transform: scale(0.6);
-    animation: none;
-  }
 }
 
 /* styles for small screens */
@@ -353,13 +342,13 @@ nav ul li a:active {
   }
 
   .mount-birds-home-pg {
-    top: 0px;
-    transform: scale(0.5);
+    top: 290px;
+    transform: scale(0.4);
   }
   
   .dude-boat-home-pg {
-    top: 0px;
-    right: 0px;
+    top: 650px;
+    right: 250px;
     transform: scale(0.6);
     animation: none;
   }
@@ -666,16 +655,6 @@ nav ul li a:active {
       display: none;
     }
     
-    .dude-fishing-about-pg {
-      top: 0px;
-      left: 0px;
-      transform: scale(0.5);
-      animation: none;
-    }
-    
-    .fishes-about-pg {
-      transform: scale(0.4);
-    }
 }
 
 /* styles for small screens */
@@ -720,14 +699,15 @@ nav ul li a:active {
     }
     
     .dude-fishing-about-pg {
-      top: 0px;
-      left: 0px;
-      transform: scale(0.5);
+      top: 1500px;
+      left: 140px;
+      transform: scale(0.4);
       animation: none;
     }
     
     .fishes-about-pg {
-      transform: scale(0.4);
+      top: 1300px;
+      transform: scale(0.3);
     }
 }
 
@@ -1224,11 +1204,6 @@ nav ul li a:active {
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
-
-  .fish-pond-project-pg {
-    top: 0px;
-    transform: scale(0.5);
-  }
   
 }
 
@@ -1255,8 +1230,8 @@ nav ul li a:active {
   }
 
   .fish-pond-project-pg {
-    top: 0px;
-    transform: scale(0.5);
+    top: 2300px;
+    transform: scale(0.4);
   }
 
 }
@@ -1447,24 +1422,6 @@ nav ul li a:active {
     margin: auto 30px;
   }
 
-  .lighthouse-island-volunteer-pg{
-    right: -0px;
-    top: 0px;
-    transform: scale(0.4);
-  }
-
-  .dude-boat-volunteer-pg{
-    right: 0px;
-    top: 0px;
-    transform: scale(0.5);
-  }
-
-  .birds-volunteer-pg {
-    right: 0px;
-    top: 0px;
-    transform: scale(0.5);
-  }
-
 }
 
 /* styles for small screens */
@@ -1516,20 +1473,20 @@ nav ul li a:active {
   }
 
   .lighthouse-island-volunteer-pg{
-    right: 0px;
-    top: 0px;
-    transform: scale(0.4);
+    right: -400px;
+    top: 3000px;
+    transform: scale(0.3);
   }
 
   .dude-boat-volunteer-pg{
-    right: 0px;
-    top: 0px;
-    transform: scale(0.5);
+    right: -10px;
+    top: 3240px;
+    transform: scale(0.4);
   }
 
   .birds-volunteer-pg {
     right: 0px;
-    top: 0px;
+    top: 2850px;
     transform: scale(0.5);
   }
 }
@@ -1939,29 +1896,29 @@ nav ul li a:active {
   }
 
   .tl-dude-team-pg {
-    top: 100px;
-    right: 220px;
+    top: 0px;
+    right: 0px;
     transform: scale(0.5);
     animation: none;
   }
   
   .tr-dude-team-pg {
-    top: 100px;
-    left: 280px;
+    top: 0px;
+    left: 0px;
     transform: scale(0.5);
     animation: none;
   }
   
   .bl-dude-team-pg {
-    top: 600px;
-    right: 350px;
+    top: 0px;
+    right: 0px;
     transform: scale(0.5);
     animation: none;
   }
   
   .br-dude-team-pg {
-    top: 500px;
-    left: 300px;
+    top: 0px;
+    left: 0px;
     transform: scale(0.5);
     animation: none;
   }
@@ -1980,29 +1937,29 @@ nav ul li a:active {
   }
 
   .tl-dude-team-pg {
-    top: 100px;
-    right: 220px;
+    top: 200px;
+    right: 140px;
     transform: scale(0.5);
     animation: none;
   }
   
   .tr-dude-team-pg {
-    top: 100px;
-    left: 280px;
+    top: 400px;
+    left: 170px;
     transform: scale(0.5);
     animation: none;
   }
   
   .bl-dude-team-pg {
-    top: 600px;
-    right: 350px;
+    top: 750px;
+    right: 250px;
     transform: scale(0.5);
     animation: none;
   }
   
   .br-dude-team-pg {
-    top: 500px;
-    left: 300px;
+    top: 1000px;
+    left: 170px;
     transform: scale(0.5);
     animation: none;
   }
@@ -2395,6 +2352,10 @@ footer p{
 /* styles for small screens */
 @media (max-width: 480px) {
   /* styles for screens smaller than 768px */
-  
+  footer p {
+    font-size: 0.6rem;
+    margin: auto 20px;
+
+  }
 }
 /* END FOOTER */
